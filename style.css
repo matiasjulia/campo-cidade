@@ -1,12 +1,39 @@
-
-
-  .container {
-  display: flex;
-  width: 100%;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1D6617; 
+    margin: 0;
+    padding: 0;
 }
 
-.column {
-  flex: 1; 
-  padding: 10px;
-  border: 1px solid black;
+header {
+    background-color: #073B05; 
+    color: white;
+    text-align: center;
+    padding: 20 px 0;
+}
+
+section.informacoes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.coluna {
+    width: 40%;
+    background-color: #618B35;
+    padding: 15 px;
+    box-shadow:0 0 10 px rgba(0,0,0,0.1);
+}
+
+.coluna img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10 px;
+}
+
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 10 px 0;
 }
